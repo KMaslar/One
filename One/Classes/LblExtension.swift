@@ -3,7 +3,7 @@ import Foundation
 import UIKit
 
 
-public extension UILabel {
+internal extension UILabel {
     
    public func underlinedLabel() {
         guard let text = text else { return }
